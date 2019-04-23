@@ -1,0 +1,128 @@
+.top-navigation{
+	background-color: #272727;
+	color: #cecece;
+	padding: 0.35rem 0;
+	height: 35px;
+}
+.top-navigation a{
+	color: #cecece;
+}
+.top-navigation a:hover{
+	color: #fff;
+}
+.navbar{
+	background-color: rgba(39,64,139,0.8); /*47 79 79*/
+}
+.no-margin{
+	margin-left: -15px;
+	margin-right: -15px;
+}
+.nav-link,
+.dropdown-item a{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.nav-link:hover{
+	color: #aaa;
+}
+.dropdown-menu{
+	top: 3.32rem;
+	background-color: #25221A;
+	border-radius: 0;
+}
+.dropdown-item{
+	/*border-bottom: 0.125rem solid #493E2B;*/
+}
+.dropdown-item:hover{
+	/*background-color: #25221A;*/
+	/*background-color: rgba(255,255,255,0);*/
+	background-color: transparent;
+}
+.fa-bars{
+	color: #fff;
+	font-size: 1.875rem;
+}
+.donate{
+	background-color: #E6E6FA; /*#ecb338*/
+	/*border-bottom: 0.1875rem solid #8c6e16;*/
+	color: black; /*#685617*/
+	padding: 1.58rem 1.5rem 1.6rem;
+	margin-right: -0.3rem;
+}
+.donate:hover{
+	color: #685617;
+	text-decoration: none;
+}
+.banner img{
+	width: 100%;
+}
+.fa-code{
+	text-align: center;
+	line-height: 23px;
+}
+.infos{
+	height: 32rem;
+	background-color: #25221A;
+}
+.converse{
+	height: 24rem;
+	background-color: #cecece;
+}
+.rodape{
+	height: 15rem;
+	background-color: #25221A;
+}
+.formulario{
+	border: 1px solid black;
+	border-radius: 60px;
+	height: 17rem;
+}
+.formu{
+	background-color: white;
+	height: 1.875rem;
+	width: 1.875rem;
+	text-align: center;
+	line-height: 25px;
+	border-radius: 100px;
+}
+.converse input{
+	height: 1.875rem;
+}
+.converse input,
+.converse textarea{
+	width: 22rem;
+}
+.converse textarea{
+	height: 5rem;
+}
+.submita{
+	margin-left: 2rem;
+	border: none;
+	background-color: #696969;
+	color: white;
+	border-radius: 100px;
+}
+.converse div{
+	float: left;
+	text-align: center;
+}
+.converse input,
+.converse textarea{
+	float: right;
+}
+.rodape h5{
+	color: #fff;
+}
+.rodape hr{
+	border-color: white;
+}
+.icone{
+	background-color: rgba(39,64,139,0.5);
+}
+.areaTexto{
+	max-height: 7rem;
+}
+.faw{
+	color: black;
+}
