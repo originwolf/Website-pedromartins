@@ -1,4 +1,7 @@
-
+@font-face{
+	font-family: ubuntu;
+	src: url("fonts/Ubuntu.ttf") format("truetype");
+}
 .top-navigation{
 	background-color: #272727;
 	color: #cecece;
