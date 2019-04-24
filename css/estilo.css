@@ -1,3 +1,4 @@
+
 .top-navigation{
 	background-color: #272727;
 	color: #cecece;
@@ -106,6 +107,23 @@
 .converse textarea{
 	float: right;
 }
+.bgCartao{
+	background-color: #eee;
+	border-radius: 30px;
+	max-height: 13.55rem;
+}
+.cartaoVisita{
+	background-color: rgba(39,64,139,0.5);
+	border-radius: 30px;
+}
+.faCartao{
+	color: rgb(39,64,139);
+}
+.pCartao{
+	font-weight: bold;
+	font-size: 1.1rem;
+}
+/*Start footer*/
 .rodape h5{
 	color: #fff;
 }
