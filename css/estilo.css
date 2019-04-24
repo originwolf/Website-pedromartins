@@ -31,12 +31,7 @@
 	background-color: #25221A;
 	border-radius: 0;
 }
-.dropdown-item{
-	/*border-bottom: 0.125rem solid #493E2B;*/
-}
 .dropdown-item:hover{
-	/*background-color: #25221A;*/
-	/*background-color: rgba(255,255,255,0);*/
 	background-color: transparent;
 }
 .fa-bars{
@@ -44,9 +39,8 @@
 	font-size: 1.875rem;
 }
 .donate{
-	background-color: #E6E6FA; /*#ecb338*/
-	/*border-bottom: 0.1875rem solid #8c6e16;*/
-	color: black; /*#685617*/
+	background-color: #E6E6FA;
+	color: black;
 	padding: 1.58rem 1.5rem 1.6rem;
 	margin-right: -0.3rem;
 }
@@ -128,4 +122,11 @@
 }
 .rodape hr{
 	border: 1px solid rgba(39,64,139,0.9);
+}
+.rodape p{
+	color: white;
+	font-size: 0.9rem;
+}
+.negrita{
+	font-weight: bold;
 }
