@@ -129,11 +129,16 @@ body{
 	font-size: 2rem;
 	color: #25221A;
 }
-.pCartao{
+.hCartao{
 	font-weight: bold;
 	font-size: 1.1rem;
 	color: rgb(39,64,139);
 	font-family: ubuntu;
+}
+.pCartao{
+	font-size: 1.1rem;
+	font-family: ubuntu;
+	font-weight: normal;
 }
 /*Start footer*/
 .rodape h5{
