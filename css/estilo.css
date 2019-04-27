@@ -58,6 +58,7 @@ body{
 }
 .banner img{
 	background-position: center;
+	width: 100%;
 	background-repeat: no-repeat;
 }
 .fa-code{
