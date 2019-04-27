@@ -3,7 +3,7 @@
 	src: url("../fonts/Ubuntu.ttf") format("truetype");
 }
 body{
-	font-family: ubuntu, arial, helvetica, sans-serif;
+	font-family: ubuntu, arial, sans-serif;
 }
 .top-navigation{
 	background-color: #272727;
