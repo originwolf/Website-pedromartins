@@ -115,32 +115,15 @@ body{
 .converse textarea{
 	float: right;
 }
-.bgCartao,
-.bgCartaoMD,
-.bgCartaoSM,
-.bgCartaoXL{
+.bgCartao{
 	background-color: #eee;
 	border-radius: 30px;
 	max-height: 13.55rem;
 }
-.bgCartaoXS{
+.bgCartao2{
 	background-color: #eee;
 	border-radius: 30px;
-}
-.pCartaoXL,
-.hCartaoXL{
-	font-size: 1.1rem;
-	font-weight: none;
-}
-.pCartaoMD,
-.hCartaoMD{
-	font-size: 0.8rem;
-	font-weight: none;
-}
-.pCartaoSM,
-.hCartaoSM{
-	font-size: 0.6rem;
-	font-weight: none;
+	max-height: 13.55rem;
 }
 .cartaoVisita{
 	background-color: rgba(39,64,139,0.5);
@@ -172,14 +155,6 @@ body{
 	font-size: 0.9rem;
 	font-family: ubuntu;
 	font-weight: normal;
-}
-.hCartaoXS,
-.hCartaoSM,
-.hCartaoMD,
-.hCartaoLG,
-.hCartaoXL{
-	color: rgb(39,64,139);
-	font-weight: bold;
 }
 /*Start footer*/
 .rodape h5{
