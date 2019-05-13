@@ -69,6 +69,11 @@ body{
 	height: 32rem;
 	background-color: #25221A;
 }
+.textBranco{
+	color: #fff;
+}
+/*END INFOS*/
+/*START CONVERSE*/
 .converse{
 	height: 27rem;
 	background-color: #cecece;
