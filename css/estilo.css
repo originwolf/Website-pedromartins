@@ -76,7 +76,7 @@ body{
 /*END INFOS*/
 /*START CONVERSE*/
 .converse{
-	height: 27rem;
+	max-height: 27rem;
 	background-color: #cecece;
 }
 .formulario{
