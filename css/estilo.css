@@ -24,22 +24,16 @@ body{
 	margin-left: -15px;
 	margin-right: -15px;
 }
-.nav-link,
-.dropdown-item a{
+.negrita{
+	font-weight: bold;
+}
+.nav-link{
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: bold;
 }
 .nav-link:hover{
 	color: #aaa;
-}
-.dropdown-menu{
-	top: 3.32rem;
-	background-color: #25221A;
-	border-radius: 0;
-}
-.dropdown-item:hover{
-	background-color: transparent;
 }
 .fa-bars{
 	color: #fff;
@@ -67,7 +61,6 @@ body{
 }
 /*START INFOS*/
 .infos{
-	max-height: 32rem;
 	background-color: #25221A;
 }
 .textBranco{
@@ -184,9 +177,6 @@ body{
 .rodape p{
 	color: white;
 	font-size: 0.9rem;
-}
-.negrita{
-	font-weight: bold;
 }
 .linkSocial{
 	color: white;
