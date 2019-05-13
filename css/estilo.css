@@ -73,10 +73,6 @@ body{
 	height: 27rem;
 	background-color: #cecece;
 }
-.rodape{
-	height: 15rem;
-	background-color: #25221A;
-}
 .formulario{
 	border: 1px solid black;
 	border-radius: 60px;
@@ -89,6 +85,12 @@ body{
 	text-align: center;
 	line-height: 25px;
 	border-radius: 100px;
+}
+.areaTexto{
+	max-height: 7rem;
+}
+.faw{
+	color: black;
 }
 .converse input{
 	height: 1.875rem;
@@ -157,6 +159,10 @@ body{
 	font-weight: bold;
 }
 /*Start footer*/
+.rodape{
+	max-height: 35rem;
+	background-color: #25221A;
+}
 .rodape h5{
 	color: #fff;
 }
@@ -165,12 +171,6 @@ body{
 }
 .icone{
 	background-color: rgba(39,64,139,0.5);
-}
-.areaTexto{
-	max-height: 7rem;
-}
-.faw{
-	color: black;
 }
 .rodape hr{
 	border: 1px solid rgba(39,64,139,0.9);
@@ -181,4 +181,14 @@ body{
 }
 .negrita{
 	font-weight: bold;
+}
+.linkSocial{
+	color: white;
+	text-decoration: none;
+	font-size: 0.9rem;
+}
+.linkSocial:hover{
+	color: white;
+	text-decoration: none;
+	font-size: 1rem;
 }
