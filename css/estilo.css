@@ -142,19 +142,19 @@ body{
 }
 .hCartao2{
 	font-weight: bold;
-	font-size: 0.9rem;
+	font-size: 1rem;
 	color: rgb(39,64,139);
 	font-family: ubuntu;
 }
 .pCartao{
-	font-size: 1rem;
-	font-family: ubuntu;
-	font-weight: normal;
-}
-.pCartao2{
 	font-size: 0.9rem;
 	font-family: ubuntu;
-	font-weight: normal;
+	font-weight: bold;
+}
+.pCartao2{
+	font-size: 1rem;
+	font-family: ubuntu;
+	font-weight: bold;
 }
 /*Start footer*/
 .rodape h5{
