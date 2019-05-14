@@ -27,6 +27,9 @@ body{
 .negrita{
 	font-weight: bold;
 }
+.progress-bar{
+	background-color: rgba(39,64,139,0.8);
+}
 .nav-link{
 	color: #fff;
 	text-transform: uppercase;
