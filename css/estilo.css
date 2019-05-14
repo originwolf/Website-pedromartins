@@ -47,7 +47,7 @@ body{
 	font-weight: bold;
 }
 .donate:hover{
-	color: #685617;
+	color: #a4a4a4;
 	text-decoration: none;
 }
 .banner img{
@@ -64,12 +64,11 @@ body{
 	background-color: #25221A;
 }
 .textBranco{
-	color: #fff;
+	color: #cecece;
 }
 /*END INFOS*/
 /*START CONVERSE*/
 .converse{
-	max-height: 27rem;
 	background-color: #cecece;
 }
 .formulario{
@@ -159,7 +158,6 @@ body{
 }
 /*Start footer*/
 .rodape{
-	max-height: 35rem;
 	background-color: #25221A;
 }
 .rodape h5{
