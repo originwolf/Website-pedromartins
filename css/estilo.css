@@ -1,81 +1,104 @@
-body{
+body {
 	font-family: Ubuntu, arial, sans-serif;
 }
-.top-navigation{
+
+.top-navigation {
 	background-color: #272727;
 	color: #cecece;
 	padding: 0.35rem 0;
 	height: 35px;
 }
-.top-navigation a{
+
+.top-navigation a {
 	color: #cecece;
 }
-.top-navigation a:hover{
+
+.top-navigation a:hover {
 	color: #fff;
 }
-.navbar{
+
+.navbar {
 	background-color: rgba(39,64,139,0.8); /*47 79 79*/
 }
-.no-margin{
+
+.no-margin {
 	margin-left: -15px;
 	margin-right: -15px;
 }
-.negrita{
+
+.negrita {
 	font-weight: bold;
 }
-.progress-bar{
+
+.progress-bar {
 	background-color: rgba(39,64,139,0.8);
 }
-.nav-link{
+
+.nav-link {
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: bold;
 }
-.nav-link:hover{
+
+.nav-link:hover {
 	color: #aaa;
 }
-.fa-bars{
+
+.fa-bars {
 	color: #fff;
 	font-size: 1.875rem;
 }
-.donate{
+
+.donate {
 	background-color: #E6E6FA;
 	color: black;
 	padding: 1.58rem 1.5rem 1.6rem;
 	margin-right: -0.3rem;
 	font-weight: bold;
 }
-.donate:hover{
+
+.donate:hover {
 	color: #a4a4a4;
 	text-decoration: none;
 }
-.banner img{
+
+.banner {
+	background-color: gray;
+}
+
+.banner img {
 	background-position: center;
 	width: 100%;
 	background-repeat: no-repeat;
 }
-.fa-code{
+
+.fa-code {
 	text-align: center;
 	line-height: 23px;
 }
+
 /*START INFOS*/
-.infos{
+.infos {
 	background-color: #25221A;
 }
-.textBranco{
+
+.textBranco {
 	color: #cecece;
 }
+
 /*END INFOS*/
 /*START CONVERSE*/
-.converse{
+.converse {
 	background-color: #cecece;
 }
-.formulario{
+
+.formulario {
 	border: 1px solid black;
 	border-radius: 60px;
 	height: 17rem;
 }
-.formu{
+
+.formu {
 	background-color: white;
 	height: 1.875rem;
 	width: 1.875rem;
@@ -83,105 +106,137 @@ body{
 	line-height: 25px;
 	border-radius: 100px;
 }
-.areaTexto{
+
+.areaTexto {
 	max-height: 7rem;
 }
-.faw{
+
+.faw {
 	color: black;
 }
-.converse input{
+
+.converse input {
 	height: 1.875rem;
 }
+
 .converse input,
-.converse textarea{
+.converse textarea {
 	width: 22rem;
 }
-.converse textarea{
+
+.converse textarea {
 	height: 5rem;
 }
-.submita{
+
+.submita {
 	margin-left: 2rem;
 	border: none;
 	background-color: #696969;
 	color: white;
 	border-radius: 100px;
 }
-.converse div{
+
+.converse div {
 	float: left;
 	text-align: center;
 }
+
 .converse input,
-.converse textarea{
+.converse textarea {
 	float: right;
 }
-.bgCartao{
+
+.bgCartao {
 	background-color: #eee;
 	border-radius: 30px;
 	max-height: 13.55rem;
 }
-.cartaoVisita{
+
+.cartaoVisita {
 	background-color: rgba(39,64,139,0.5);
 	border-radius: 30px;
 }
-.faCartao{
+
+.faCartao {
 	color: rgb(39,64,139);
 	font-size: 2rem;
 	color: #25221A;
 }
-.hCartao{
+
+.hCartao {
 	font-weight: bold;
 	font-size: 1.1rem;
 	color: rgb(39,64,139);
 	font-family: Ubuntu;
 	text-align: center;
 }
-.hCartao2{
+
+.hCartao2 {
 	font-weight: bold;
 	font-size: 1rem;
 	color: rgb(39,64,139);
 }
-.pCartao{
+
+.pCartao {
 	font-size: 0.9rem;
 	font-family: Ubuntu;
 	font-weight: bold;
 }
-.pCartao2{
+
+.pCartao2 {
 	font-size: 1rem;
 	font-family: Ubuntu;
 	font-weight: bold;
 }
+
 /*Start footer*/
-.rodape{
+.rodape {
 	background-color: #25221A;
 }
-.rodape h5{
+
+.rodape h5 {
 	color: #fff;
 }
-.rodape hr{
+
+.rodape hr {
 	border-color: white;
 }
-.icone{
+
+.icone {
 	background-color: rgba(39,64,139,0.5);
 }
-.rodape hr{
+
+.rodape hr {
 	border: 1px solid rgba(39,64,139,0.9);
 }
-.rodape p{
+
+.rodape p {
 	color: white;
 	font-size: 0.9rem;
 }
-.linkSocial{
+
+.btnTop {
+	color: #aaa;
+}
+
+.btnTop:hover {
+	color: white;
+}
+
+.linkSocial {
 	color: white;
 	text-decoration: none;
 	font-size: 0.9rem;
 }
-.linkSocial:hover{
+
+.linkSocial:hover {
 	color: white;
 	text-decoration: none;
 	font-size: 1rem;
 }
+
 /*START REDIRECT PAGE CSS*/
-.cards{
+.cards {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -191,6 +246,7 @@ body{
     width: 100vw;
     background-color: rgba(39,64,139,0.8);
 }
-.card{
+
+.card {
 	border-radius: 25px;
 }
