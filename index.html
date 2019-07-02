@@ -60,18 +60,14 @@
 
 				<ul id="menubar" class="navbar-nav nav collapse navbar-collapse">
 
-					<li class="nav-item">
-						<a href="#sobremim" class="nav-link mx-2">Sobre mim</a>
-					</li>
+					<button id="btnSobreMim" type="button" onclick="go('#sobremim')" class="btn btnMenu">Sobre mim</button>
 
-					<li class="nav-item">
-						<a href="#habilidades" class="nav-link mx-2">Habilidades</a>
-					</li>
+					<button id="btnHabilidades" type="button" onclick="go('#habilidades')" class="btn btnMenu">Habilidades</button>
 
 				</ul>
 
-				<div class="p-4 font-weight-bold">
-					<a href="#converse" class="donate">Faça contato</a>
+				<div class="p-2 font-weight-bold">
+					<button id="btnConverse" type="button" onclick="go('#converse')" class="btn btnMenu contato">Faça contato</button>
 				</div>
 
 			</nav>
@@ -372,7 +368,7 @@
 
 				</div>
 
-				<a href="#home"><i class="fas fa-arrow-up btnTop"></i></a>
+				<button id="arrow" type="button" onclick="go('#home')" class="btn btnTop"><i class="fas fa-arrow-up"></i></button>
 
 				<div class="col-12 text-center">			
 					<hr>
@@ -388,6 +384,12 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+	<script>
+		const go = (elem) => {
+			window.scroll({top: document.querySelector(elem).offsetTop, left: 0, behavior: 'smooth'});
+		}	
+	</script>
 
 </body>
 
