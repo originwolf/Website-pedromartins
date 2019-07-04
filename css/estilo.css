@@ -89,6 +89,12 @@ h2{
 	line-height: 23px;
 }
 
+/*START SOBREMIM*/
+.profilePic {
+	border-radius: 20px;
+	border: 1px solid white;
+}
+
 /*START INFOS*/
 .infos {
 	background-color: #25221A;
