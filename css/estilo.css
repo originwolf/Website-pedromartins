@@ -2,6 +2,10 @@ body {
 	font-family: Ubuntu, arial, sans-serif;
 }
 
+h2{
+	font-size: 2rem;
+}
+
 .top-navigation {
 	background-color: #272727;
 	color: #cecece;
@@ -202,8 +206,9 @@ body {
 	background-color: #25221A;
 }
 
-.rodape h5 {
-	color: #fff;
+.rodape h3 {
+	color: white;
+	font-size: 1.4rem;
 }
 
 .rodape hr {
