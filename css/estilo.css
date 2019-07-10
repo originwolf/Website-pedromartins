@@ -219,6 +219,11 @@ h2{
 	color: white;
 }
 
+.btnTop:focus,
+.btnMenu:focus {
+	box-shadow: none;
+}
+
 .linkSocial {
 	color: white;
 	text-decoration: none;
