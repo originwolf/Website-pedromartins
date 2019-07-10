@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
 body {
 	font-family: Ubuntu, arial, sans-serif;
 }
@@ -34,18 +36,39 @@ h2{
 
 .nav-link {
 	color: #fff;
-	text-transform: uppercase;
-	font-weight: bold;
+	font-size: 1.3rem;
 }
 
 .nav-link:hover {
 	color: #aaa;
 }
 
-.btnMenu{
+.dropdown-menu {
+	background-color: #25221A;
+}
+
+.dropdown-menu:hover {
+	background-color: white;
+	transition: 0.4s;
+}
+
+.dropdown-menu:hover > .dropdown-item {
+	color: black;
+	background-color: transparent;
+}
+
+.dropdown-item {
+	color: white;
+}
+
+.btnMenu {
 	background-color: transparent;
 	color: white;
 	font-size: 1.3rem;
+}
+
+.btnMenu:hover {
+	color: #aaa;
 }
 
 .fa-bars {
@@ -86,7 +109,7 @@ h2{
 	border-radius: 20px;
 	border: 1px solid white;
 }
-
+/*END SOBREMIM*/
 /*START INFOS*/
 .infos {
 	background-color: #25221A;
@@ -182,8 +205,8 @@ h2{
 	font-family: Ubuntu;
 	font-weight: bold;
 }
-
-/*Start footer*/
+/*END CONVERSE*/
+/*START FOOTER*/
 .rodape {
 	background-color: #25221A;
 }
@@ -235,7 +258,7 @@ h2{
 	text-decoration: none;
 	font-size: 1rem;
 }
-
+/*END FOOTER*/
 /*START REDIRECT PAGE CSS*/
 .cards {
     position: relative;
@@ -250,4 +273,11 @@ h2{
 
 .card {
 	border-radius: 25px;
+}
+/*END REDIRECT PAGE CSS*/
+/*START PROJETOS-WEB PAGE CSS*/
+/*START APRESENTACAO*/
+.apresentacao{
+	height: 15rem;
+	background-color: #25221A;
 }
