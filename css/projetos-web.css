@@ -71,6 +71,20 @@ h2 {
 .apresentacao{
 	background-color: #25221A;
 }
+/*END APRESENTACAO*/
+/*START TUDIMDIBAO*/
+.tudimdibao {
+	background-color: #cecece;
+}
+
+.tudimdibao div p {
+	font-size: 1.1rem;
+}
+
+.tudimdibao div a:hover {
+	text-decoration: none;
+}
+/*END TUDIMDIBAO*/
 /*START FOOTER*/
 .rodape {
 	background-color: #25221A;
@@ -123,4 +137,4 @@ h2 {
 	text-decoration: none;
 	font-size: 1rem;
 }
-/*END FOOTER*/
+/*END FOOTER
