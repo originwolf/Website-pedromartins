@@ -55,6 +55,16 @@ h2 {
 	color: #fff;
 	font-size: 1.875rem;
 }
+
+.btnMenu {
+	background-color: transparent;
+	color: white;
+	font-size: 1.3rem;
+}
+
+.btnMenu:hover {
+	color: #aaa;
+}
 /*END NAVBAR*/
 /*START BANNER*/
 .banner {
