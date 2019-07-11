@@ -84,7 +84,7 @@ h2 {
 /*END APRESENTACAO*/
 /*START TUDIMDIBAO*/
 .tudimdibao {
-	background-color: #cecece;
+	background-color: #25221A;
 }
 
 .tudimdibao div p {
@@ -97,8 +97,18 @@ h2 {
 
 .fotoSite {
 	border-radius: 20px;
+	border: 1px solid black;
 }
 /*END TUDIMDIBAO*/
+/*START PORTFOLIO*/
+.portfolio {
+	background-color: #cecece;
+}
+
+.portfolio div a:hover {
+	text-decoration: none;
+}
+/*END PORTFOLIO*/
 /*START FOOTER*/
 .rodape {
 	background-color: #25221A;
