@@ -94,6 +94,10 @@ h2 {
 .tudimdibao div a:hover {
 	text-decoration: none;
 }
+
+.fotoSite {
+	border-radius: 20px;
+}
 /*END TUDIMDIBAO*/
 /*START FOOTER*/
 .rodape {
