@@ -108,7 +108,16 @@ h2 {
 .portfolio div a:hover {
 	text-decoration: none;
 }
+
+.portfolio div p {
+	font-size: 1.1rem;
+}
 /*END PORTFOLIO*/
+/*START*/
+.consideracao {
+	background-color: #cecece;
+}
+/*END*/
 /*START FOOTER*/
 .rodape {
 	background-color: #25221A;
