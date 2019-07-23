@@ -1,4 +1,5 @@
-<!-- [![Netlify Status]()](https://app.netlify.com/sites/pedromartins/deploys) -->
+[![Netlify Status]()](https://app.netlify.com/sites/pedromartins/deploys)
+
 <h2>Portfólio</h2>
 <table>
 	<tbody>
