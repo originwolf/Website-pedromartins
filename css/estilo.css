@@ -25,6 +25,17 @@ h2{
 	color: #cecece;
 }
 
+.link {
+	text-decoration: none;
+	color: #cecece;
+}
+
+.link:hover {
+	text-decoration: none;
+	color: #cecece;
+	font-size: 1.1rem;
+}
+
 .top-navigation a:hover {
 	color: #fff;
 }
