@@ -58,16 +58,6 @@ h2{
 	background-color: #25221A;
 }
 
-.dropdown-menu:hover {
-	background-color: white;
-	transition: 0.4s;
-}
-
-.dropdown-menu:hover > .dropdown-item {
-	color: black;
-	background-color: transparent;
-}
-
 .dropdown-item {
 	color: white;
 }
