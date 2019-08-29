@@ -331,9 +331,14 @@ h2{
 .environment {
 	background-color: #cecece;
 }
-/*END PROJETOS-EXTENSAO PAGE CSS*/
 /*START ARDUINO*/
 #arduino {
 	background-color: #25221A;
 }
 /*END ARDUINO*/
+/*START FINAL*/
+#final {
+	background-color: #cecece;
+}
+/*END FINAL*/
+/*END PROJETOS-EXTENSAO PAGE CSS*/
