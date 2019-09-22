@@ -26,11 +26,17 @@ h2{
 }
 
 .link {
+	text-decoration: underline;
+	color: #cecece;
+}
+
+.linkNoUnderline {
 	text-decoration: none;
 	color: #cecece;
 }
 
-.link:hover {
+.link:hover,
+.linkNoUnderline:hover {
 	text-decoration: none;
 	color: #cecece;
 	font-size: 1.1rem;
@@ -250,7 +256,7 @@ h2{
 
 .linkSocial {
 	color: white;
-	text-decoration: none;
+	text-decoration: underline;
 	font-size: 0.9rem;
 }
 
