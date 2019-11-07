@@ -14,6 +14,10 @@ function modoClaro() {
 	document.getElementById('meusDados').style.color = "#25221A"
 	document.getElementById('meApresenta').style.color = "#25221A"
 	document.getElementById('minhaFoto').style.border = "1px solid black"
+	document.getElementById('aLinkedin').style.color = "#25221A"
+	document.getElementById('aLattes').style.color = "#25221A"
+	document.getElementById('aCurriculoLG').style.color = "#25221A"
+	document.getElementById('aCurriculoXL').style.color = "#25221A"
 	// //habilidades Section
 	// document.getElementById('habilidades').style.background = "#cecece"
 	// document.getElementById('habilidades').style.color = "#25221A"
@@ -34,6 +38,10 @@ function modoEscuro() {
 	document.getElementById('meusDados').style.color = "#CECECE"
 	document.getElementById('meApresenta').style.color = "#CECECE"
 	document.getElementById('minhaFoto').style.border = "1px solid white"
+	document.getElementById('aLinkedin').style.color = "#CECECE"
+	document.getElementById('aLattes').style.color = "#CECECE"
+	document.getElementById('aCurriculoLG').style.color = "#CECECE"
+	document.getElementById('aCurriculoXL').style.color = "#CECECE"
 	// //habilidades Section
 	// document.getElementById('habilidades').style.background = "#25221A"
 	// document.getElementById('habilidades').style.color = "#cecece"
