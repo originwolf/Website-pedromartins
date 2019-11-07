@@ -74,6 +74,11 @@
 			</ul>
 
 			<div class="p-2 font-weight-bold">
+				<button id="btnClaro" type="button" onclick="modoClaro()" class="btn btnMenu contato">Modo Claro</button>
+				<button id="btnEscuro" type="button" onclick="modoEscuro()" class="btn btnMenu contato" style="display: none;">Modo Escuro</button>
+			</div>
+
+			<div class="p-2 font-weight-bold">
 				<button id="btnConverse" type="button" onclick="go('#converse')" class="btn btnMenu contato">Faça contato</button>
 			</div>
 
@@ -90,14 +95,14 @@
 	<section id="sobremim" class="row justify-content-center infos">
 
 		<div class="col-12 mt-4">
-			<h2 class="textBranco text-center">Sobre mim</h2>
+			<h2 id="h2Sobremim" class="textBranco text-center">Sobre mim</h2>
 		</div>
 
 		<div class="col-sm-4 col-md-4 col-lg-3 d-none d-sm-inline my-3">
-			<img src="image/profile-picture.webp" class="img-fluid profilePic" alt="Pedro Martins" title="Foto de Pedro Martins">
+			<img src="image/profile-picture.webp" id="minhaFoto" class="img-fluid profilePic" alt="Pedro Martins" title="Foto de Pedro Martins">
 		</div>
 
-		<div class="col-sm-6 col-md-6 col-lg-3 my-3 textBranco text-center text-md-left text-lg-right">
+		<div id="meusDados" class="col-sm-6 col-md-6 col-lg-3 my-3 textBranco text-center text-md-left text-lg-right">
 			
 			<p><span class="font-weight-bold">Nome: </span>Pedro Henrique Martins<span class="d-none d-sm-none d-md-inline"> e Oliveira</span></p>
 			<p><span class="font-weight-bold">Residência: </span>Itajubá, Minas Gerais</p>
@@ -109,7 +114,7 @@
 
 		</div>
 
-		<div class="col-sm-10 col-md-10 col-lg-5 my-3 textBranco text-justify">
+		<div id="meApresenta" class="col-sm-10 col-md-10 col-lg-5 my-3 textBranco text-justify">
 
 			<p><span class="font-weight-bold">Estudante</span> de Sistemas de Informação no IFSULDEMINAS - Campus Machado. Natural de Itajubá e atualmente morando em Machado, tenho focado bastante em me tornar um programador tão bom quanto possível, e por isso o foco dos estudos vão além de linguagens e sintaxes, tendo sempre o clean code em vista, aliado as técnicas aprendidas com a Engenharia de Software.</p>
 			<p><span class="font-weight-bold">Embora</span> eu tenha focado bastante os estudos na área de desenvolvimento web, esta não é minha única capacitação. Com diversos cursos feitos em programação desktop em linguagens como JAVA, C, C# e até mesmo Python, meu próximo foco é o desenvolvimento Mobile com Flutter</p>
