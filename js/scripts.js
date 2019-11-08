@@ -6,7 +6,6 @@ function modoClaro() {
 	//general function
 	document.getElementById('btnClaro').style.display = 'none'
 	document.getElementById('btnEscuro').style.display = 'inline'
-	//document.getElementsByClassName('h2Geral').style.color = "#25221A"
 	//sobremim Section
 	document.getElementById('sobremim').style.background = "#CECECE"
 	document.getElementById('sobremim').style.color = "#25221A"
@@ -19,18 +18,18 @@ function modoClaro() {
 	document.getElementById('aCurriculoLG').style.color = "#25221A"
 	document.getElementById('aCurriculoXL').style.color = "#25221A"
 	// //habilidades Section
-	// document.getElementById('habilidades').style.background = "#cecece"
-	// document.getElementById('habilidades').style.color = "#25221A"
-	// document.getElementById('divHab1').style.color = "#25221A"
-	// document.getElementById('divHab2').style.color = "#25221A"
-	// document.getElementById('divHab3').style.color = "#25221A"
+	document.getElementById('habilidades').style.background = "#CECECE"
+	document.getElementById('habilidades').style.color = "#25221A"
+	document.getElementById('h2Habilidades').style.color = "#25221A"
+	document.getElementById('divHab1').style.color = "#25221A"
+	document.getElementById('divHab2').style.color = "#25221A"
+	document.getElementById('divHab3').style.color = "#25221A"
 }
 
 function modoEscuro() {
 	//general function
 	document.getElementById('btnEscuro').style.display = 'none'
 	document.getElementById('btnClaro').style.display = 'inline'
-	//document.getElementsByClassName('h2Geral').style.color = "#CECECE"
 	//sobremim Section
 	document.getElementById('sobremim').style.background = "#25221A"
 	document.getElementById('sobremim').style.color = "#CECECE"
@@ -43,9 +42,10 @@ function modoEscuro() {
 	document.getElementById('aCurriculoLG').style.color = "#CECECE"
 	document.getElementById('aCurriculoXL').style.color = "#CECECE"
 	// //habilidades Section
-	// document.getElementById('habilidades').style.background = "#25221A"
-	// document.getElementById('habilidades').style.color = "#cecece"
-	// document.getElementById('divHab1').style.color = "#cecece"
-	// document.getElementById('divHab2').style.color = "#cecece"
-	// document.getElementById('divHab3').style.color = "#cecece"
+	document.getElementById('habilidades').style.background = "#25221A"
+	document.getElementById('habilidades').style.color = "#CECECE"
+	document.getElementById('h2Habilidades').style.color = "#CECECE"
+	document.getElementById('divHab1').style.color = "#CECECE"
+	document.getElementById('divHab2').style.color = "#CECECE"
+	document.getElementById('divHab3').style.color = "#CECECE"
 }
