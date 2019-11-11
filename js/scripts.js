@@ -6,6 +6,15 @@ function modoClaro() {
 	//general function
 	document.getElementById('btnClaro').style.display = 'none'
 	document.getElementById('btnEscuro').style.display = 'inline'
+	//top-navigation section
+	document.getElementById('home').style.background = "#AFAFAF"
+	document.getElementById('home').style.color = "#25221A"
+	document.getElementById('meuNome').style.color = "#25221A"
+	document.getElementById('redesSociais1').style.color = "#25221A"
+	document.getElementById('redesSociais2').style.color = "#25221A"
+	document.getElementById('redesSociais3').style.color = "#25221A"
+	//navbar section
+	document.getElementById('barraMenu').style.backgroundColor = "rgba(39,64,139,0.72)"
 	//sobremim Section
 	document.getElementById('sobremim').style.background = "#CECECE"
 	document.getElementById('sobremim').style.color = "#25221A"
@@ -18,7 +27,7 @@ function modoClaro() {
 	document.getElementById('aCurriculoLG').style.color = "#25221A"
 	document.getElementById('aCurriculoXL').style.color = "#25221A"
 	// //habilidades Section
-	document.getElementById('habilidades').style.background = "#CECECE"
+	document.getElementById('habilidades').style.background = "#AFAFAF"
 	document.getElementById('habilidades').style.color = "#25221A"
 	document.getElementById('h2Habilidades').style.color = "#25221A"
 	document.getElementById('divHab1').style.color = "#25221A"
@@ -30,6 +39,15 @@ function modoEscuro() {
 	//general function
 	document.getElementById('btnEscuro').style.display = 'none'
 	document.getElementById('btnClaro').style.display = 'inline'
+	//top-navigation section
+	document.getElementById('home').style.background = "#272727"
+	document.getElementById('home').style.color = "#CECECE"
+	document.getElementById('meuNome').style.color = "#CECECE"
+	document.getElementById('redesSociais1').style.color = "#CECECE"
+	document.getElementById('redesSociais2').style.color = "#CECECE"
+	document.getElementById('redesSociais3').style.color = "#CECECE"
+	//navbar section
+	document.getElementById('barraMenu').style.backgroundColor = "rgba(39,64,139,0.8)"
 	//sobremim Section
 	document.getElementById('sobremim').style.background = "#25221A"
 	document.getElementById('sobremim').style.color = "#CECECE"
