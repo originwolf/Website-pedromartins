@@ -16,7 +16,7 @@ function modoClaro() {
 	//navbar section
 	document.getElementById('barraMenu').style.backgroundColor = "rgba(39,64,139,0.72)"
 	//sobremim Section
-	document.getElementById('sobremim').style.background = "#CECECE"
+	document.getElementById('sobremim').style.background = "#AFAFAF"
 	document.getElementById('sobremim').style.color = "#25221A"
 	document.getElementById('h2Sobremim').style.color = "#25221A"
 	document.getElementById('meusDados').style.color = "#25221A"
@@ -26,13 +26,34 @@ function modoClaro() {
 	document.getElementById('aLattes').style.color = "#25221A"
 	document.getElementById('aCurriculoLG').style.color = "#25221A"
 	document.getElementById('aCurriculoXL').style.color = "#25221A"
-	// //habilidades Section
-	document.getElementById('habilidades').style.background = "#AFAFAF"
+	//habilidades Section
+	document.getElementById('habilidades').style.background = "#CECECE"
 	document.getElementById('habilidades').style.color = "#25221A"
 	document.getElementById('h2Habilidades').style.color = "#25221A"
 	document.getElementById('divHab1').style.color = "#25221A"
 	document.getElementById('divHab2').style.color = "#25221A"
 	document.getElementById('divHab3').style.color = "#25221A"
+	//converse Section
+	document.getElementById('converse').style.background = "#AFAFAF"
+	//rodape Section
+	//curriculum
+	document.getElementById('rodapeSite').style.background = "#CECECE"
+	document.getElementById('h3Curriculo').style.color = "#25221A"
+	document.getElementById('aCurriculo').style.color = "#25221A"
+	document.getElementById('aLattes2').style.color = "#25221A"
+	//contatos
+	document.getElementById('h3Contatos').style.color = "#25221A"
+	document.getElementById('pEmail').style.color = "#25221A"
+	document.getElementById('pTelefone').style.color = "#25221A"
+	//redesSociais
+	document.getElementById('h3RedesSociais').style.color = "#25221A"
+	document.getElementById('aGithub').style.color = "#25221A"
+	document.getElementById('aLinkedin2').style.color = "#25221A"
+	//arrow
+	document.getElementById('arrow').style.color = "#25221A"
+	//nome
+	document.getElementById('aMeuNome').style.color = "#25221A"
+
 }
 
 function modoEscuro() {
@@ -59,11 +80,30 @@ function modoEscuro() {
 	document.getElementById('aLattes').style.color = "#CECECE"
 	document.getElementById('aCurriculoLG').style.color = "#CECECE"
 	document.getElementById('aCurriculoXL').style.color = "#CECECE"
-	// //habilidades Section
+	//habilidades Section
 	document.getElementById('habilidades').style.background = "#25221A"
 	document.getElementById('habilidades').style.color = "#CECECE"
 	document.getElementById('h2Habilidades').style.color = "#CECECE"
 	document.getElementById('divHab1').style.color = "#CECECE"
 	document.getElementById('divHab2').style.color = "#CECECE"
 	document.getElementById('divHab3').style.color = "#CECECE"
+	//converse Section
+	document.getElementById('converse').style.background = "#CECECE"
+	//rodape Section
+	document.getElementById('rodapeSite').style.background = "#25221A"
+	document.getElementById('h3Curriculo').style.color = "#CECECE"
+	document.getElementById('aCurriculo').style.color = "#CECECE"
+	document.getElementById('aLattes2').style.color = "#CECECE"
+	//contatos
+	document.getElementById('h3Contatos').style.color = "#CECECE"
+	document.getElementById('pEmail').style.color = "#CECECE"
+	document.getElementById('pTelefone').style.color = "#CECECE"
+	//redesSociais
+	document.getElementById('h3RedesSociais').style.color = "#CECECE"
+	document.getElementById('aGithub').style.color = "#CECECE"
+	document.getElementById('aLinkedin2').style.color = "#CECECE"
+	//arrow
+	document.getElementById('arrow').style.color = "#CECECE"
+	//nome
+	document.getElementById('aMeuNome').style.color = "#CECECE"
 }
