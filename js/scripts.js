@@ -53,7 +53,58 @@ function modoClaro() {
 	document.getElementById('arrow').style.color = "#25221A"
 	//nome
 	document.getElementById('aMeuNome').style.color = "#25221A"
+}
 
+function extensaoClaro() {
+	//general function
+	document.getElementById('btnClaro').style.display = 'none'
+	document.getElementById('btnEscuro').style.display = 'inline'
+	//top-navigation section
+	document.getElementById('home').style.background = "#AFAFAF"
+	document.getElementById('home').style.color = "#25221A"
+	document.getElementById('meuNome').style.color = "#25221A"
+	document.getElementById('redesSociais1').style.color = "#25221A"
+	document.getElementById('redesSociais2').style.color = "#25221A"
+	document.getElementById('redesSociais3').style.color = "#25221A"
+	//navbar section
+	document.getElementById('barraMenu').style.backgroundColor = "rgba(39,64,139,0.72)"
+	//importancia section
+	document.getElementById('importancia').style.background = "#AFAFAF"
+	document.getElementById('h1Importancia').style.color = "#25221A"
+	document.getElementById('divImportancia').style.color = "#25221A"
+	document.getElementById('divRelevancia').style.color = "#25221A"
+	//arduino section
+	document.getElementById('arduino').style.background = "#AFAFAF"
+	document.getElementById('h2Arduino').style.color = "#25221A"
+	document.getElementById('divArduino1').style.color = "#25221A"
+	document.getElementById('divArduino2').style.color = "#25221A"
+	document.getElementById('imgArduino').style.border = "1px solid #25221A"
+}
+
+function extensaoEscuro() {
+	//general function
+	document.getElementById('btnEscuro').style.display = 'none'
+	document.getElementById('btnClaro').style.display = 'inline'
+	//top-navigation section
+	document.getElementById('home').style.background = "#272727"
+	document.getElementById('home').style.color = "#CECECE"
+	document.getElementById('meuNome').style.color = "#CECECE"
+	document.getElementById('redesSociais1').style.color = "#CECECE"
+	document.getElementById('redesSociais2').style.color = "#CECECE"
+	document.getElementById('redesSociais3').style.color = "#CECECE"
+	//navbar section
+	document.getElementById('barraMenu').style.backgroundColor = "rgba(39,64,139,0.8)"
+	//importancia section
+	document.getElementById('importancia').style.background = "#25221A"
+	document.getElementById('h1Importancia').style.color = "#CECECE"
+	document.getElementById('divImportancia').style.color = "#CECECE"
+	document.getElementById('divRelevancia').style.color = "#CECECE"
+	//arduino section
+	document.getElementById('arduino').style.background = "#25221A"
+	document.getElementById('h2Arduino').style.color = "#CECECE"
+	document.getElementById('divArduino1').style.color = "#CECECE"
+	document.getElementById('divArduino2').style.color = "#CECECE"
+	document.getElementById('imgArduino').style.border = "1px solid #CECECE"
 }
 
 function modoEscuro() {
