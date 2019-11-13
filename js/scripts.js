@@ -146,50 +146,6 @@ function webClaro() {
 	document.getElementById('aMeuNome').style.color = "#25221A"
 }
 
-function webEscuro() {
-	//general function
-	document.getElementById('btnEscuro').style.display = 'none'
-	document.getElementById('btnClaro').style.display = 'inline'
-	claro = false
-	//top-navigation section
-	document.getElementById('home').style.background = "#272727"
-	document.getElementById('home').style.color = "#CECECE"
-	document.getElementById('meuNome').style.color = "#CECECE"
-	document.getElementById('redesSociais1').style.color = "#CECECE"
-	document.getElementById('redesSociais2').style.color = "#CECECE"
-	document.getElementById('redesSociais3').style.color = "#CECECE"
-	//navbar section
-	document.getElementById('barraMenu').style.backgroundColor = "rgba(39,64,139,0.8)"
-	//apresentacao section
-	document.getElementById('apresentacao').style.background = "#25221A"
-	document.getElementById('h1Web').style.color = "#CECECE"
-	document.getElementById('webDesigner').style.color = "#CECECE"
-	document.getElementById('projetosWeb').style.color = "#CECECE"
-	//tudimdibao section
-	document.getElementById('tudimdibao').style.background = "#25221A"
-	document.getElementById('h2TudimDibao').style.color = "#CECECE"
-	document.getElementById('imgRestaurante').style.border = "1px solid #CECECE"
-	document.getElementById('divRestaurante1').style.color = "#CECECE"
-	document.getElementById('divRestaurante2').style.color = "#CECECE"
-	//rodape Section
-	document.getElementById('rodapeSite').style.background = "#25221A"
-	document.getElementById('h3Curriculo').style.color = "#CECECE"
-	document.getElementById('aCurriculo').style.color = "#CECECE"
-	document.getElementById('aLattes2').style.color = "#CECECE"
-	//contatos
-	document.getElementById('h3Contatos').style.color = "#CECECE"
-	document.getElementById('pEmail').style.color = "#CECECE"
-	document.getElementById('pTelefone').style.color = "#CECECE"
-	//redesSociais
-	document.getElementById('h3RedesSociais').style.color = "#CECECE"
-	document.getElementById('aGithub').style.color = "#CECECE"
-	document.getElementById('aLinkedin2').style.color = "#CECECE"
-	//arrow
-	document.getElementById('arrow').style.color = "#CECECE"
-	//nome
-	document.getElementById('aMeuNome').style.color = "#CECECE"
-}
-
 function modoEscuro() {
 	//general function
 	document.getElementById('btnEscuro').style.display = 'none'
@@ -268,6 +224,50 @@ function extensaoEscuro() {
 	document.getElementById('divArduino1').style.color = "#CECECE"
 	document.getElementById('divArduino2').style.color = "#CECECE"
 	document.getElementById('imgArduino').style.border = "1px solid #CECECE"
+	//rodape Section
+	document.getElementById('rodapeSite').style.background = "#25221A"
+	document.getElementById('h3Curriculo').style.color = "#CECECE"
+	document.getElementById('aCurriculo').style.color = "#CECECE"
+	document.getElementById('aLattes2').style.color = "#CECECE"
+	//contatos
+	document.getElementById('h3Contatos').style.color = "#CECECE"
+	document.getElementById('pEmail').style.color = "#CECECE"
+	document.getElementById('pTelefone').style.color = "#CECECE"
+	//redesSociais
+	document.getElementById('h3RedesSociais').style.color = "#CECECE"
+	document.getElementById('aGithub').style.color = "#CECECE"
+	document.getElementById('aLinkedin2').style.color = "#CECECE"
+	//arrow
+	document.getElementById('arrow').style.color = "#CECECE"
+	//nome
+	document.getElementById('aMeuNome').style.color = "#CECECE"
+}
+
+function webEscuro() {
+	//general function
+	document.getElementById('btnEscuro').style.display = 'none'
+	document.getElementById('btnClaro').style.display = 'inline'
+	claro = false
+	//top-navigation section
+	document.getElementById('home').style.background = "#272727"
+	document.getElementById('home').style.color = "#CECECE"
+	document.getElementById('meuNome').style.color = "#CECECE"
+	document.getElementById('redesSociais1').style.color = "#CECECE"
+	document.getElementById('redesSociais2').style.color = "#CECECE"
+	document.getElementById('redesSociais3').style.color = "#CECECE"
+	//navbar section
+	document.getElementById('barraMenu').style.backgroundColor = "rgba(39,64,139,0.8)"
+	//apresentacao section
+	document.getElementById('apresentacao').style.background = "#25221A"
+	document.getElementById('h1Web').style.color = "#CECECE"
+	document.getElementById('webDesigner').style.color = "#CECECE"
+	document.getElementById('projetosWeb').style.color = "#CECECE"
+	//tudimdibao section
+	document.getElementById('tudimdibao').style.background = "#25221A"
+	document.getElementById('h2TudimDibao').style.color = "#CECECE"
+	document.getElementById('imgRestaurante').style.border = "1px solid #CECECE"
+	document.getElementById('divRestaurante1').style.color = "#CECECE"
+	document.getElementById('divRestaurante2').style.color = "#CECECE"
 	//rodape Section
 	document.getElementById('rodapeSite').style.background = "#25221A"
 	document.getElementById('h3Curriculo').style.color = "#CECECE"
