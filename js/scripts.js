@@ -79,6 +79,23 @@ function extensaoClaro() {
 	document.getElementById('divArduino1').style.color = "#25221A"
 	document.getElementById('divArduino2').style.color = "#25221A"
 	document.getElementById('imgArduino').style.border = "1px solid #25221A"
+	//rodape Section
+	document.getElementById('rodapeSite').style.background = "#AFAFAF"
+	document.getElementById('h3Curriculo').style.color = "#25221A"
+	document.getElementById('aCurriculo').style.color = "#25221A"
+	document.getElementById('aLattes2').style.color = "#25221A"
+	//contatos
+	document.getElementById('h3Contatos').style.color = "#25221A"
+	document.getElementById('pEmail').style.color = "#25221A"
+	document.getElementById('pTelefone').style.color = "#25221A"
+	//redesSociais
+	document.getElementById('h3RedesSociais').style.color = "#25221A"
+	document.getElementById('aGithub').style.color = "#25221A"
+	document.getElementById('aLinkedin2').style.color = "#25221A"
+	//arrow
+	document.getElementById('arrow').style.color = "#25221A"
+	//nome
+	document.getElementById('aMeuNome').style.color = "#25221A"
 }
 
 function extensaoEscuro() {
@@ -105,6 +122,23 @@ function extensaoEscuro() {
 	document.getElementById('divArduino1').style.color = "#CECECE"
 	document.getElementById('divArduino2').style.color = "#CECECE"
 	document.getElementById('imgArduino').style.border = "1px solid #CECECE"
+	//rodape Section
+	document.getElementById('rodapeSite').style.background = "#25221A"
+	document.getElementById('h3Curriculo').style.color = "#CECECE"
+	document.getElementById('aCurriculo').style.color = "#CECECE"
+	document.getElementById('aLattes2').style.color = "#CECECE"
+	//contatos
+	document.getElementById('h3Contatos').style.color = "#CECECE"
+	document.getElementById('pEmail').style.color = "#CECECE"
+	document.getElementById('pTelefone').style.color = "#CECECE"
+	//redesSociais
+	document.getElementById('h3RedesSociais').style.color = "#CECECE"
+	document.getElementById('aGithub').style.color = "#CECECE"
+	document.getElementById('aLinkedin2').style.color = "#CECECE"
+	//arrow
+	document.getElementById('arrow').style.color = "#CECECE"
+	//nome
+	document.getElementById('aMeuNome').style.color = "#CECECE"
 }
 
 function modoEscuro() {
