@@ -2,10 +2,13 @@ const go = (elem) => {
 	window.scroll({top: document.querySelector(elem).offsetTop, left: 0, behavior: 'smooth'});
 }
 
+var claro = false
+
 function modoClaro() {
 	//general function
 	document.getElementById('btnClaro').style.display = 'none'
 	document.getElementById('btnEscuro').style.display = 'inline'
+	claro = true
 	//top-navigation section
 	document.getElementById('home').style.background = "#AFAFAF"
 	document.getElementById('home').style.color = "#25221A"
@@ -59,6 +62,7 @@ function extensaoClaro() {
 	//general function
 	document.getElementById('btnClaro').style.display = 'none'
 	document.getElementById('btnEscuro').style.display = 'inline'
+	claro = true
 	//top-navigation section
 	document.getElementById('home').style.background = "#AFAFAF"
 	document.getElementById('home').style.color = "#25221A"
@@ -98,10 +102,27 @@ function extensaoClaro() {
 	document.getElementById('aMeuNome').style.color = "#25221A"
 }
 
-function extensaoEscuro() {
+function webClaro() {
+	//general function
+	document.getElementById('btnClaro').style.display = 'none'
+	document.getElementById('btnEscuro').style.display = 'inline'
+	claro = true
+	//top-navigation section
+	document.getElementById('home').style.background = "#AFAFAF"
+	document.getElementById('home').style.color = "#25221A"
+	document.getElementById('meuNome').style.color = "#25221A"
+	document.getElementById('redesSociais1').style.color = "#25221A"
+	document.getElementById('redesSociais2').style.color = "#25221A"
+	document.getElementById('redesSociais3').style.color = "#25221A"
+	//navbar section
+	document.getElementById('barraMenu').style.backgroundColor = "rgba(39,64,139,0.72)"
+}
+
+function webEscuro() {
 	//general function
 	document.getElementById('btnEscuro').style.display = 'none'
 	document.getElementById('btnClaro').style.display = 'inline'
+	claro = false
 	//top-navigation section
 	document.getElementById('home').style.background = "#272727"
 	document.getElementById('home').style.color = "#CECECE"
@@ -111,40 +132,13 @@ function extensaoEscuro() {
 	document.getElementById('redesSociais3').style.color = "#CECECE"
 	//navbar section
 	document.getElementById('barraMenu').style.backgroundColor = "rgba(39,64,139,0.8)"
-	//importancia section
-	document.getElementById('importancia').style.background = "#25221A"
-	document.getElementById('h1Importancia').style.color = "#CECECE"
-	document.getElementById('divImportancia').style.color = "#CECECE"
-	document.getElementById('divRelevancia').style.color = "#CECECE"
-	//arduino section
-	document.getElementById('arduino').style.background = "#25221A"
-	document.getElementById('h2Arduino').style.color = "#CECECE"
-	document.getElementById('divArduino1').style.color = "#CECECE"
-	document.getElementById('divArduino2').style.color = "#CECECE"
-	document.getElementById('imgArduino').style.border = "1px solid #CECECE"
-	//rodape Section
-	document.getElementById('rodapeSite').style.background = "#25221A"
-	document.getElementById('h3Curriculo').style.color = "#CECECE"
-	document.getElementById('aCurriculo').style.color = "#CECECE"
-	document.getElementById('aLattes2').style.color = "#CECECE"
-	//contatos
-	document.getElementById('h3Contatos').style.color = "#CECECE"
-	document.getElementById('pEmail').style.color = "#CECECE"
-	document.getElementById('pTelefone').style.color = "#CECECE"
-	//redesSociais
-	document.getElementById('h3RedesSociais').style.color = "#CECECE"
-	document.getElementById('aGithub').style.color = "#CECECE"
-	document.getElementById('aLinkedin2').style.color = "#CECECE"
-	//arrow
-	document.getElementById('arrow').style.color = "#CECECE"
-	//nome
-	document.getElementById('aMeuNome').style.color = "#CECECE"
 }
 
 function modoEscuro() {
 	//general function
 	document.getElementById('btnEscuro').style.display = 'none'
 	document.getElementById('btnClaro').style.display = 'inline'
+	claro = false
 	//top-navigation section
 	document.getElementById('home').style.background = "#272727"
 	document.getElementById('home').style.color = "#CECECE"
@@ -174,6 +168,50 @@ function modoEscuro() {
 	document.getElementById('divHab3').style.color = "#CECECE"
 	//converse Section
 	document.getElementById('converse').style.background = "#CECECE"
+	//rodape Section
+	document.getElementById('rodapeSite').style.background = "#25221A"
+	document.getElementById('h3Curriculo').style.color = "#CECECE"
+	document.getElementById('aCurriculo').style.color = "#CECECE"
+	document.getElementById('aLattes2').style.color = "#CECECE"
+	//contatos
+	document.getElementById('h3Contatos').style.color = "#CECECE"
+	document.getElementById('pEmail').style.color = "#CECECE"
+	document.getElementById('pTelefone').style.color = "#CECECE"
+	//redesSociais
+	document.getElementById('h3RedesSociais').style.color = "#CECECE"
+	document.getElementById('aGithub').style.color = "#CECECE"
+	document.getElementById('aLinkedin2').style.color = "#CECECE"
+	//arrow
+	document.getElementById('arrow').style.color = "#CECECE"
+	//nome
+	document.getElementById('aMeuNome').style.color = "#CECECE"
+}
+
+function extensaoEscuro() {
+	//general function
+	document.getElementById('btnEscuro').style.display = 'none'
+	document.getElementById('btnClaro').style.display = 'inline'
+	claro = false
+	//top-navigation section
+	document.getElementById('home').style.background = "#272727"
+	document.getElementById('home').style.color = "#CECECE"
+	document.getElementById('meuNome').style.color = "#CECECE"
+	document.getElementById('redesSociais1').style.color = "#CECECE"
+	document.getElementById('redesSociais2').style.color = "#CECECE"
+	document.getElementById('redesSociais3').style.color = "#CECECE"
+	//navbar section
+	document.getElementById('barraMenu').style.backgroundColor = "rgba(39,64,139,0.8)"
+	//importancia section
+	document.getElementById('importancia').style.background = "#25221A"
+	document.getElementById('h1Importancia').style.color = "#CECECE"
+	document.getElementById('divImportancia').style.color = "#CECECE"
+	document.getElementById('divRelevancia').style.color = "#CECECE"
+	//arduino section
+	document.getElementById('arduino').style.background = "#25221A"
+	document.getElementById('h2Arduino').style.color = "#CECECE"
+	document.getElementById('divArduino1').style.color = "#CECECE"
+	document.getElementById('divArduino2').style.color = "#CECECE"
+	document.getElementById('imgArduino').style.border = "1px solid #CECECE"
 	//rodape Section
 	document.getElementById('rodapeSite').style.background = "#25221A"
 	document.getElementById('h3Curriculo').style.color = "#CECECE"

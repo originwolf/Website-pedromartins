@@ -32,7 +32,7 @@
 
 			<div class="col-4 d-inline pl-sm-5">
 
-				<a href="https://pedromartins.dev">Pedro <span class="d-none d-sm-inline">Martins</span></a>
+				<a id="meuNome" href="https://pedromartins.dev">Pedro <span class="d-none d-sm-inline">Martins</span></a>
 
 			</div>
 
@@ -40,15 +40,15 @@
 
 			<div class="col-5 col-sm-4 text-right d-inline pr-sm-5">
 
-				<a href="https://www.linkedin.com/in/pedro-martins-dev" target="_blank"><span class="fab fa-linkedin-in mr-2"></span></a>
-				<a href="https://github.com/originwolf" target="_blank"><span class="fab fa-github mr-2"></span></a>
-				<a href="https://www.instagram.com/pedro_m4rtins/" target="_blank"><span class="fab fa-instagram mr-2"></span></a>
+				<a id="redesSociais1" href="https://www.linkedin.com/in/pedro-martins-dev" target="_blank"><span class="fab fa-linkedin-in mr-2"></span></a>
+				<a id="redesSociais2" href="https://github.com/originwolf" target="_blank"><span class="fab fa-github mr-2"></span></a>
+				<a id="redesSociais3" href="https://www.instagram.com/pedro_m4rtins/" target="_blank"><span class="fab fa-instagram mr-2"></span></a>
 
 			</div>
 
 		</section>
 
-		<nav class="navbar navbar-expand-md py-0 pl-3 no-margin">
+		<nav id="barraMenu" class="navbar navbar-expand-md py-0 pl-3 no-margin">
 
 			<div class="navbar-brand">
 
@@ -80,6 +80,10 @@
 				<button id="btnProximo" type="button" onclick="go('#proximo')" class="btn btnMenu">Conclusão</button>	
 			</ul>
 
+			<div class="p-2 font-weight-bold">
+				<button id="btnClaro" type="button" onclick="webClaro()" class="btn btnMenu contato">Modo Claro</button>
+				<button id="btnEscuro" type="button" onclick="webEscuro()" class="btn btnMenu contato" style="display: none;">Modo Escuro</button>
+			</div>
 		</nav>
 
 	</header>
