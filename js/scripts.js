@@ -71,7 +71,6 @@ function modoClaro() {
 	document.getElementById('aMeuNome').style.color = "#25221A"
 	//Setting localStorage
 	localStorage.setItem('claro', 'true')
-	console.log(localStorage.getItem('claro'))
 }
 
 function extensaoClaro() {
@@ -117,7 +116,6 @@ function extensaoClaro() {
 	document.getElementById('aMeuNome').style.color = "#25221A"
 	//Setting localStorage
 	localStorage.setItem('claro', 'true')
-	console.log(localStorage.getItem('claro'))
 }
 
 function webClaro() {
@@ -163,7 +161,6 @@ function webClaro() {
 	document.getElementById('aMeuNome').style.color = "#25221A"
 	//Setting localStorage
 	localStorage.setItem('claro', 'true')
-	console.log(localStorage.getItem('claro'))
 }
 
 function modoEscuro() {
@@ -217,8 +214,7 @@ function modoEscuro() {
 	//nome
 	document.getElementById('aMeuNome').style.color = "#CECECE"
 	//Setting localStorage
-	localStorage.setItem('claro', 'false')
-	console.log(localStorage.getItem('claro'))
+	localStorage.removeItem('claro')
 }
 
 function extensaoEscuro() {
@@ -265,8 +261,7 @@ function extensaoEscuro() {
 	//nome
 	document.getElementById('aMeuNome').style.color = "#CECECE"
 	//Setting localStorage
-	localStorage.setItem('claro', 'false')
-	console.log(localStorage.getItem('claro'))
+	localStorage.removeItem('claro')
 }
 
 function webEscuro() {
@@ -311,6 +306,5 @@ function webEscuro() {
 	//nome
 	document.getElementById('aMeuNome').style.color = "#CECECE"
 	//Setting localStorage
-	localStorage.setItem('claro', 'false')
-	console.log(localStorage.getItem('claro'))
+	localStorage.removeItem('claro')
 }
