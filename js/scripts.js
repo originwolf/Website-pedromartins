@@ -2,13 +2,34 @@ const go = (elem) => {
 	window.scroll({top: document.querySelector(elem).offsetTop, left: 0, behavior: 'smooth'});
 }
 
-var claro = false
+localStorage.setItem('claro', 'false')
+
+function definirTemaIndex() {
+	if (localStorage.getItem('claro') === 'true') {
+		modoClaro()
+	}
+}
+
+function definirTemaExtensao() {
+	if (localStorage.getItem('claro') === 'true') {
+		extensaoClaro()
+	}
+}
+
+function definirTemaWeb() {
+	if (localStorage.getItem('claro') === 'true') {
+		webClaro()
+	}
+}
+
+function definirClaro() {
+	
+}
 
 function modoClaro() {
 	//general function
 	document.getElementById('btnClaro').style.display = 'none'
 	document.getElementById('btnEscuro').style.display = 'inline'
-	claro = true
 	//top-navigation section
 	document.getElementById('home').style.background = "#AFAFAF"
 	document.getElementById('home').style.color = "#25221A"
@@ -56,13 +77,14 @@ function modoClaro() {
 	document.getElementById('arrow').style.color = "#25221A"
 	//nome
 	document.getElementById('aMeuNome').style.color = "#25221A"
+	//Setting localStorage
+	localStorage.setItem('claro', 'true')
 }
 
 function extensaoClaro() {
 	//general function
 	document.getElementById('btnClaro').style.display = 'none'
 	document.getElementById('btnEscuro').style.display = 'inline'
-	claro = true
 	//top-navigation section
 	document.getElementById('home').style.background = "#AFAFAF"
 	document.getElementById('home').style.color = "#25221A"
@@ -100,13 +122,14 @@ function extensaoClaro() {
 	document.getElementById('arrow').style.color = "#25221A"
 	//nome
 	document.getElementById('aMeuNome').style.color = "#25221A"
+	//Setting localStorage
+	localStorage.setItem('claro', 'true')
 }
 
 function webClaro() {
 	//general function
 	document.getElementById('btnClaro').style.display = 'none'
 	document.getElementById('btnEscuro').style.display = 'inline'
-	claro = true
 	//top-navigation section
 	document.getElementById('home').style.background = "#AFAFAF"
 	document.getElementById('home').style.color = "#25221A"
@@ -144,13 +167,14 @@ function webClaro() {
 	document.getElementById('arrow').style.color = "#25221A"
 	//nome
 	document.getElementById('aMeuNome').style.color = "#25221A"
+	//Setting localStorage
+	localStorage.setItem('claro', 'true')
 }
 
 function modoEscuro() {
 	//general function
 	document.getElementById('btnEscuro').style.display = 'none'
 	document.getElementById('btnClaro').style.display = 'inline'
-	claro = false
 	//top-navigation section
 	document.getElementById('home').style.background = "#272727"
 	document.getElementById('home').style.color = "#CECECE"
@@ -197,13 +221,14 @@ function modoEscuro() {
 	document.getElementById('arrow').style.color = "#CECECE"
 	//nome
 	document.getElementById('aMeuNome').style.color = "#CECECE"
+	//Setting localStorage
+	localStorage.setItem('claro', 'false')
 }
 
 function extensaoEscuro() {
 	//general function
 	document.getElementById('btnEscuro').style.display = 'none'
 	document.getElementById('btnClaro').style.display = 'inline'
-	claro = false
 	//top-navigation section
 	document.getElementById('home').style.background = "#272727"
 	document.getElementById('home').style.color = "#CECECE"
@@ -241,13 +266,14 @@ function extensaoEscuro() {
 	document.getElementById('arrow').style.color = "#CECECE"
 	//nome
 	document.getElementById('aMeuNome').style.color = "#CECECE"
+	//Setting localStorage
+	localStorage.setItem('claro', 'false')
 }
 
 function webEscuro() {
 	//general function
 	document.getElementById('btnEscuro').style.display = 'none'
 	document.getElementById('btnClaro').style.display = 'inline'
-	claro = false
 	//top-navigation section
 	document.getElementById('home').style.background = "#272727"
 	document.getElementById('home').style.color = "#CECECE"
@@ -285,4 +311,6 @@ function webEscuro() {
 	document.getElementById('arrow').style.color = "#CECECE"
 	//nome
 	document.getElementById('aMeuNome').style.color = "#CECECE"
+	//Setting localStorage
+	localStorage.setItem('claro', 'false')
 }
