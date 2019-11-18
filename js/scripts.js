@@ -2,22 +2,20 @@ const go = (elem) => {
 	window.scroll({top: document.querySelector(elem).offsetTop, left: 0, behavior: 'smooth'});
 }
 
-localStorage.setItem('claro', 'false')
-
 function definirTemaIndex() {
-	if (localStorage.getItem('claro') === 'true') {
+	if (localStorage.getItem('claro') == 'true') {
 		modoClaro()
 	}
 }
 
 function definirTemaExtensao() {
-	if (localStorage.getItem('claro') === 'true') {
+	if (localStorage.getItem('claro') == 'true') {
 		extensaoClaro()
 	}
 }
 
 function definirTemaWeb() {
-	if (localStorage.getItem('claro') === 'true') {
+	if (localStorage.getItem('claro') == 'true') {
 		webClaro()
 	}
 }
@@ -53,11 +51,9 @@ function modoClaro() {
 	document.getElementById('divHab1').style.color = "#25221A"
 	document.getElementById('divHab2').style.color = "#25221A"
 	document.getElementById('divHab3').style.color = "#25221A"
-	//converse Section
-	document.getElementById('converse').style.background = "#AFAFAF"
 	//rodape Section
 	//curriculum
-	document.getElementById('rodapeSite').style.background = "#CECECE"
+	document.getElementById('rodapeSite').style.background = "#AFAFAF"
 	document.getElementById('h3Curriculo').style.color = "#25221A"
 	document.getElementById('aCurriculo').style.color = "#25221A"
 	document.getElementById('aLattes2').style.color = "#25221A"
@@ -249,6 +245,8 @@ function extensaoEscuro() {
 	document.getElementById('divArduino1').style.color = "#CECECE"
 	document.getElementById('divArduino2').style.color = "#CECECE"
 	document.getElementById('imgArduino').style.border = "1px solid #CECECE"
+	//tudimdibao section
+	document.getElementById('imgRestaurante').style.border = "#CECECE"
 	//rodape Section
 	document.getElementById('rodapeSite').style.background = "#25221A"
 	document.getElementById('h3Curriculo').style.color = "#CECECE"
