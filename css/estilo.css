@@ -237,7 +237,7 @@ h2{
 
 .rodape p {
 	color: white;
-	font-size: 0.9rem;
+	font-size: 1rem;
 }
 
 .btnTop {
@@ -257,7 +257,7 @@ h2{
 .linkSocial {
 	color: white;
 	text-decoration: underline;
-	font-size: 0.9rem;
+	font-size: 1rem;
 }
 
 .linkSocial:hover {
