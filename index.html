@@ -221,58 +221,47 @@
 		</div>
 
 		<div class="class col-12 col-sm-10 col-md-6 mb-4">
-
 			<form name="contact" method="POST" action="redirect.html" data-netlify="true">
-
-				<div class="input-group mb-3">
-
-	 				<div class="input-group-prepend">
-	    				<span class="icone input-group-text" id="basic-addon1"><span class="faw far fa-user"></span></span>
-	  				</div>
-
-				  	<input type="text" class="form-control" name="nome" placeholder="Nome completo:" aria-label="Usuário" aria-describedby="basic-addon1" required>
-
-				</div>
-
-				<div class="input-group mb-3">
-
-	 				<div class="input-group-prepend">
-	    				<span class="icone input-group-text" id="basic-addon1"><span class="faw fas fa-mobile-alt"></span></span>
-	  				</div>
-
-				  	<input type="text" class="form-control" name="telefone" placeholder="Telefone (com DDD):" aria-label="telefone" aria-describedby="basic-addon1">
-
-				</div>
-
-				<div class="input-group mb-3">
-
-	 				<div class="input-group-prepend">
-	    				<span class="icone input-group-text" id="basic-addon1"><span class="faw far fa-envelope"></span></span>
-	  				</div>
-
-				  	<input type="email" class="form-control" name="email" placeholder="E-mail:" aria-label="Usuário" aria-describedby="basic-addon1" required>
-
-				</div>
-
-				<div class="input-group">
-
+				<fieldset>
+					<legend>Dados da mensagem:</legend>
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+						<span class="icone input-group-text" id="basic-addon1"><span class="faw far fa-user"></span></span>
+						</div>	
+						<input type="text" class="form-control" name="nome" placeholder="Nome completo:" aria-label="Insira seu nome" aria-describedby="basic-addon1" required>	
+					</div>
+	
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+						<span class="icone input-group-text" id="basic-addon1"><span class="faw fas fa-mobile-alt"></span></span>
+						</div>
+						<input type="text" class="form-control" name="telefone" placeholder="Telefone (com DDD):" aria-label="Insira seu telefone" aria-describedby="basic-addon1">
+					</div>
+	
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+						<span class="icone input-group-text" id="basic-addon1"><span class="faw far fa-envelope"></span></span>
+						</div>
+						<input type="email" class="form-control" name="email" placeholder="E-mail:" aria-label="Insira seu e-mail" aria-describedby="basic-addon1" required>
+					</div>
+	
+					<div class="input-group">
+	
 					<div class="input-group-prepend">
-				    	<span class="icone input-group-text"><span class="faw far fa-comment"></span></span>
-				 	</div>
-
-				 	<textarea class="form-control areaTexto" name="mensagem" placeholder="Deixe sua mensagem:" aria-label="Com textarea" required></textarea>
-
-				</div>
+						<span class="icone input-group-text"><span class="faw far fa-comment"></span></span>
+						</div>
+						<textarea class="form-control areaTexto" name="mensagem" placeholder="Deixe sua mensagem:" aria-label="Deixe sua mensagem" required></textarea>
+					</div>
+				</fieldset>
 
 				<div class="btn-group mt-2" role="group" aria-label="btnForm">
 					<button type="submit" class="btn btn-dark">Enviar</button>
 				</div>
-
 			</form>
 
 		</div>
 
-		<div class="col-sm-10 col-md-5 col-lg-5 mb-4 bgCartao d-none d-sm-block">
+		<div class="col-sm-10 col-md-5 col-lg-5 my-5 bgCartao d-none d-sm-block">
 
 			<h2 class="mt-2 p-1 cartaoVisita">Faça contato</h2>
 
