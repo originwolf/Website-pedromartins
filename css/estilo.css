@@ -335,7 +335,7 @@ h2{
 /*END CONSIDERACOES*/
 /*END PROJETOS-WEB PAGE CSS*/
 /*START PROJETOS-EXTENSAO PAGE CSS*/
-.importancia {
+#firstSection {
 	background-color: #25221A;
 }
 
@@ -343,7 +343,6 @@ h2{
 	background-color: #cecece;
 }
 /*START ARDUINO*/
-#arduino,
 #secondSection {
 	background-color: #25221A;
 }

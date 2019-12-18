@@ -8,12 +8,6 @@ function definirTemaIndex() {
 	}
 }
 
-function definirTemaExtensao() {
-	if (localStorage.getItem('claro') == 'true') {
-		extensaoClaro()
-	}
-}
-
 function definirTemaWeb() {
 	if (localStorage.getItem('claro') == 'true') {
 		webClaro()
@@ -59,51 +53,6 @@ function modoClaro() {
 	document.getElementById('divHab3').style.color = "#25221A"
 	//rodape Section
 	//curriculum
-	document.getElementById('rodapeSite').style.background = "#AFAFAF"
-	document.getElementById('h3Curriculo').style.color = "#25221A"
-	document.getElementById('aCurriculo').style.color = "#25221A"
-	document.getElementById('aLattes2').style.color = "#25221A"
-	//contatos
-	document.getElementById('h3Contatos').style.color = "#25221A"
-	document.getElementById('pEmail').style.color = "#25221A"
-	document.getElementById('pTelefone').style.color = "#25221A"
-	//redesSociais
-	document.getElementById('h3RedesSociais').style.color = "#25221A"
-	document.getElementById('aGithub').style.color = "#25221A"
-	document.getElementById('aLinkedin2').style.color = "#25221A"
-	//arrow
-	document.getElementById('arrow').style.color = "#25221A"
-	//nome
-	document.getElementById('aMeuNome').style.color = "#25221A"
-	//Setting localStorage
-	localStorage.setItem('claro', 'true')
-}
-
-function extensaoClaro() {
-	//general function
-	document.getElementById('btnClaro').style.display = 'none'
-	document.getElementById('btnEscuro').style.display = 'inline'
-	//top-navigation section
-	document.getElementById('home').style.background = "#AFAFAF"
-	document.getElementById('home').style.color = "#25221A"
-	document.getElementById('meuNome').style.color = "#25221A"
-	document.getElementById('redesSociais1').style.color = "#25221A"
-	document.getElementById('redesSociais2').style.color = "#25221A"
-	document.getElementById('redesSociais3').style.color = "#25221A"
-	//navbar section
-	document.getElementById('barraMenu').style.backgroundColor = "rgba(39,64,139,0.72)"
-	//importancia section
-	document.getElementById('importancia').style.background = "#AFAFAF"
-	document.getElementById('h1Importancia').style.color = "#25221A"
-	document.getElementById('divImportancia').style.color = "#25221A"
-	document.getElementById('divRelevancia').style.color = "#25221A"
-	//arduino section
-	document.getElementById('arduino').style.background = "#AFAFAF"
-	document.getElementById('h2Arduino').style.color = "#25221A"
-	document.getElementById('divArduino1').style.color = "#25221A"
-	document.getElementById('divArduino2').style.color = "#25221A"
-	document.getElementById('imgArduino').style.border = "1px solid #25221A"
-	//rodape Section
 	document.getElementById('rodapeSite').style.background = "#AFAFAF"
 	document.getElementById('h3Curriculo').style.color = "#25221A"
 	document.getElementById('aCurriculo').style.color = "#25221A"
@@ -186,7 +135,7 @@ function padraoClaro() {
 	document.getElementById('firstSection').style.background = "#AFAFAF"
 	document.getElementById('pageH1').style.color = "#25221A"
 	document.getElementById('firstDiv1').style.color = "#25221A"
-	document.getElementById('secondDiv1').style.color = "#25221A"
+	document.getElementById('firstDiv2').style.color = "#25221A"
 	//second section
 	document.getElementById('secondSection').style.background = "#AFAFAF"
 	document.getElementById('secondH2').style.color = "#25221A"
@@ -247,53 +196,6 @@ function modoEscuro() {
 	document.getElementById('divHab3').style.color = "#CECECE"
 	//converse Section
 	document.getElementById('converse').style.background = "#CECECE"
-	//rodape Section
-	document.getElementById('rodapeSite').style.background = "#25221A"
-	document.getElementById('h3Curriculo').style.color = "#CECECE"
-	document.getElementById('aCurriculo').style.color = "#CECECE"
-	document.getElementById('aLattes2').style.color = "#CECECE"
-	//contatos
-	document.getElementById('h3Contatos').style.color = "#CECECE"
-	document.getElementById('pEmail').style.color = "#CECECE"
-	document.getElementById('pTelefone').style.color = "#CECECE"
-	//redesSociais
-	document.getElementById('h3RedesSociais').style.color = "#CECECE"
-	document.getElementById('aGithub').style.color = "#CECECE"
-	document.getElementById('aLinkedin2').style.color = "#CECECE"
-	//arrow
-	document.getElementById('arrow').style.color = "#CECECE"
-	//nome
-	document.getElementById('aMeuNome').style.color = "#CECECE"
-	//Setting localStorage
-	localStorage.removeItem('claro')
-}
-
-function extensaoEscuro() {
-	//general function
-	document.getElementById('btnEscuro').style.display = 'none'
-	document.getElementById('btnClaro').style.display = 'inline'
-	//top-navigation section
-	document.getElementById('home').style.background = "#272727"
-	document.getElementById('home').style.color = "#CECECE"
-	document.getElementById('meuNome').style.color = "#CECECE"
-	document.getElementById('redesSociais1').style.color = "#CECECE"
-	document.getElementById('redesSociais2').style.color = "#CECECE"
-	document.getElementById('redesSociais3').style.color = "#CECECE"
-	//navbar section
-	document.getElementById('barraMenu').style.backgroundColor = "rgba(39,64,139,0.8)"
-	//importancia section
-	document.getElementById('importancia').style.background = "#25221A"
-	document.getElementById('h1Importancia').style.color = "#CECECE"
-	document.getElementById('divImportancia').style.color = "#CECECE"
-	document.getElementById('divRelevancia').style.color = "#CECECE"
-	//arduino section
-	document.getElementById('arduino').style.background = "#25221A"
-	document.getElementById('h2Arduino').style.color = "#CECECE"
-	document.getElementById('divArduino1').style.color = "#CECECE"
-	document.getElementById('divArduino2').style.color = "#CECECE"
-	document.getElementById('imgArduino').style.border = "1px solid #CECECE"
-	//tudimdibao section
-	document.getElementById('imgRestaurante').style.border = "#CECECE"
 	//rodape Section
 	document.getElementById('rodapeSite').style.background = "#25221A"
 	document.getElementById('h3Curriculo').style.color = "#CECECE"
@@ -377,7 +279,7 @@ function padraoEscuro() {
 	document.getElementById('firstSection').style.background = "#25221A"
 	document.getElementById('pageH1').style.color = "#CECECE"
 	document.getElementById('firstDiv1').style.color = "#CECECE"
-	document.getElementById('secondDiv1').style.color = "#CECECE"
+	document.getElementById('firstDiv2').style.color = "#CECECE"
 	//second section
 	document.getElementById('secondSection').style.background = "#25221A"
 	document.getElementById('secondH2').style.color = "#CECECE"

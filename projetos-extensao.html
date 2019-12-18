@@ -22,7 +22,7 @@
 	<!-- JS LOADING -->
 	<script>
 		window.onload = function() {
-			definirTemaExtensao()
+			definirTemaPadrao()
 		}
 	</script>
 
@@ -78,8 +78,8 @@
 			</ul>
 
 			<div class="p-2 font-weight-bold">
-				<button id="btnClaro" type="button" onclick="extensaoClaro()" class="btn btnMenu contato">Modo Claro</button>
-				<button id="btnEscuro" type="button" onclick="extensaoEscuro()" class="btn btnMenu contato" style="display: none;">Modo Escuro</button>
+				<button id="btnClaro" type="button" onclick="padraoClaro()" class="btn btnMenu contato">Modo Claro</button>
+				<button id="btnEscuro" type="button" onclick="padraoEscuro()" class="btn btnMenu contato" style="display: none;">Modo Escuro</button>
 			</div>
 		</nav>
 	</header>
@@ -90,11 +90,11 @@
 	</section>
 	<!-- END BANNER -->
 	<!-- START IMPORTANCIA -->
-	<section id="importancia" class="row justify-content-center importancia">
+	<section id="firstSection" class="row justify-content-center importancia">
 
-			<h1 id="h1Importancia" class="col-12 text-center my-3 textBranco mb-5">Projetos de Extensão</h1>
+			<h1 id="pageH1" class="col-12 text-center my-3 textBranco mb-5">Projetos de Extensão</h1>
 
-			<div id="divImportancia" class="col-12 col-sm-10 col-md-5 text-justify mb-4 textBranco">
+			<div id="firstDiv1" class="col-12 col-sm-10 col-md-5 text-justify mb-4 textBranco">
 				<h2>Sua importância</h2>
 				<p>Ao realizar projetos de extensão universitária, eu pude entender melhor como funciona o mundo fora da faculdade.</p>
 				<p>Apenas a base teórica se mostrava muito ineficiente na hora de se desenvolver um projeto real, e projetos de pesquisa e extensão se mostraram perfeitos para suprir a demanda por experiência.</p>
@@ -105,7 +105,7 @@
 
 			<div class="d-none d-md-inline mx-3"></div>
 
-			<div id="divRelevancia" class="col-12 col-sm-10 col-md-5 text-justify mb-4 textBranco">
+			<div id="firstDiv2" class="col-12 col-sm-10 col-md-5 text-justify mb-4 textBranco">
 				<h2>Sua relevância</h2>
 				<p>Os projetos elaborados durante trabalhos de pesquisa e extensão me ajudaram a construir uma base firme como um profissinal da área da Ciência da Computação.</p>
 				<p>Com estes projetos eu aprendi muito mais do que como fazer uma pesquisa ou como realizar uma tarefa, eu aprendi a fazer isto da melhor maneira e do jeito mais prático.</p>
@@ -146,17 +146,17 @@
 	</section>
 	<!-- END ENVIRONMENT -->
 	<!-- START ARDUINO -->
-	<section id="arduino" class="row justify-content-center arduino">
+	<section id="secondSection" class="row justify-content-center arduino">
 
-		<h2 id="h2Arduino" class="col-12 my-4 text-center textBranco">Robótica e automação</h2>
+		<h2 id="secondH2" class="col-12 my-4 text-center textBranco">Robótica e automação</h2>
 
 		<div class="col-sm-10 col-lg-7 col-xl-6 pb-5 text-center">
-			<img id="imgArduino" src="image/braco-robotico.webp" alt="Braço robótico controlado por Arduino" title="Braço robótico controlado por Arduino" class="img-fluid imgSite">
+			<img id="secondImg" src="image/braco-robotico.webp" alt="Braço robótico controlado por Arduino" title="Braço robótico controlado por Arduino" class="img-fluid imgSite">
 		</div>
 
 		<div class="d-none d-xl-inline mx-3"></div>
 
-		<div id="divArduino1" class="col-12 col-sm-10 col-lg-5 text-justify pb-4 textBranco">
+		<div id="secondDiv1" class="col-12 col-sm-10 col-lg-5 text-justify pb-4 textBranco">
 			<h2>Arduino</h2>
 			<p>Na faculdade, o que não faltavam eram projetos para se fazer. Com diversos grupos de estudo em todas as áreas, um logo me chamou a atenção, pois era baseado na plataforma Arduino, plataforma esta muito conhecida em todo o mundo.</p>
 			<p>Neste grupo de estudos, logo comecei a desenvolver meu primeiro projeto. O projeto consistia em um controle automatizado de temperatura, pensado para estufas e outros ambientes fechados.</p>
@@ -164,7 +164,7 @@
 			<p class="d-block d-lg-none d-xl-block">O projeto contava ainda com diversas outras funcionalidades, planejadas para facilitar o uso do mesmo e ampliam suas capacidades de uso. Um controle remoto era utilizado para se configurar a maior parte das funções, assim como um visor LCD era utilizado para se acompanhar a temperatura da sala em tempo real.</p>
 		</div>
 
-		<div id="divArduino2" class="col-12 col-sm-10 col-lg-7 text-justify pb-4 textBranco">
+		<div id="secondDiv2" class="col-12 col-sm-10 col-lg-7 text-justify pb-4 textBranco">
 			<h2 class="text-left text-sm-center mb-3">E muito mais</h2>
 			<p>No período de um ano, dois projetos grandes foram desenvolvidos, além de vários projetos menores.</p>
 			<p>Sendo eles desenvolvidos para estudos pessoais e capacitação, alguns destes projetos foram feitos para aprender sobre e com a plataforma.</p>
