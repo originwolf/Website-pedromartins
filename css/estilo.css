@@ -52,8 +52,39 @@ h2{
 	font-size: 1.1rem;
 }
 
-.top-navigation a:hover {
+.consideracao,
+.environment,
+.portfolio,
+.converse,
+#final {
+	background-color: #cecece;
+}
+
+.tudimdibao,
+.apresentacao,
+.rodape,
+.dropdown-menu,
+.infos,
+#secondSection,
+#firstSection {
+	background-color: #25221A;
+}
+
+.top-navigation a:hover,
+.dropdown-item,
+.btnTop:hover {
 	color: #fff;
+}
+
+.tudimdibao div p,
+.portfolio div p,
+.consideracao div p {
+	font-size: 1.1rem;
+}
+
+.tudimdibao div a:hover,
+.portfolio div a:hover {
+	text-decoration: none;
 }
 
 .navbar,
@@ -66,26 +97,15 @@ h2{
 	font-size: 1.3rem;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.btnMenu:hover {
 	color: #aaa;
-}
-
-.dropdown-menu {
-	background-color: #25221A;
-}
-
-.dropdown-item {
-	color: white;
 }
 
 .btnMenu {
 	background-color: transparent;
 	color: white;
 	font-size: 1.3rem;
-}
-
-.btnMenu:hover {
-	color: #aaa;
 }
 
 .fa-bars {
@@ -121,23 +141,7 @@ h2{
 	line-height: 23px;
 }
 
-/*START SOBREMIM*/
-.profilePic {
-	border-radius: 20px;
-	border: 1px solid white;
-}
-/*END SOBREMIM*/
-/*START INFOS*/
-.infos {
-	background-color: #25221A;
-}
-
-/*END INFOS*/
 /*START CONVERSE*/
-.converse {
-	background-color: #cecece;
-}
-
 .formulario {
 	border: 1px solid black;
 	border-radius: 60px;
@@ -224,10 +228,6 @@ h2{
 }
 /*END CONVERSE*/
 /*START FOOTER*/
-.rodape {
-	background-color: #25221A;
-}
-
 .rodape h3 {
 	color: white;
 	font-size: 1.4rem;
@@ -253,10 +253,6 @@ h2{
 .btnTop {
 	color: #aaa;
 	background-color: transparent;
-}
-
-.btnTop:hover {
-	color: white;
 }
 
 .btnTop:focus,
@@ -291,65 +287,3 @@ h2{
 .card {
 	border-radius: 25px;
 }
-/*END REDIRECT PAGE CSS*/
-/*START PROJETOS-WEB PAGE CSS*/
-/*START APRESENTACAO*/
-.apresentacao{
-	background-color: #25221A;
-}
-/*END APRESENTACAO*/
-/*START TUDIMDIBAO*/
-.tudimdibao {
-	background-color: #25221A;
-}
-
-.tudimdibao div p {
-	font-size: 1.1rem;
-}
-
-.tudimdibao div a:hover {
-	text-decoration: none;
-}
-/*END TUDIMDIBAO*/
-/*START PORTFOLIO*/
-.portfolio {
-	background-color: #cecece;
-}
-
-.portfolio div a:hover {
-	text-decoration: none;
-}
-
-.portfolio div p {
-	font-size: 1.1rem;
-}
-/*END PORTFOLIO*/
-/*START CONSIDERACOES*/
-.consideracao {
-	background-color: #cecece;
-}
-
-.consideracao div p {
-	font-size: 1.1rem;
-}
-/*END CONSIDERACOES*/
-/*END PROJETOS-WEB PAGE CSS*/
-/*START PROJETOS-EXTENSAO PAGE CSS*/
-#firstSection {
-	background-color: #25221A;
-}
-
-.environment {
-	background-color: #cecece;
-}
-/*START ARDUINO*/
-#secondSection {
-	background-color: #25221A;
-}
-/*END ARDUINO*/
-/*START FINAL*/
-#final {
-	background-color: #cecece;
-}
-/*END FINAL*/
-/*END PROJETOS-EXTENSAO PAGE CSS*/
