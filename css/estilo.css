@@ -343,7 +343,8 @@ h2{
 	background-color: #cecece;
 }
 /*START ARDUINO*/
-#arduino {
+#arduino,
+#secondSection {
 	background-color: #25221A;
 }
 /*END ARDUINO*/
